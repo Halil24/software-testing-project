@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="project.projecte.Model.InventoryTest" time="0.082" tests="29" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/test-classes:/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/classes:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-core/5.8.0/mockito-core-5.8.0.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/halilbagosi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-junit-jupiter/5.8.0/mockito-junit-jupiter-5.8.0.jar:/Users/halilbagosi/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Tirane"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/surefire/surefirebooter-20260122204912652_3.jar /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/surefire 2026-01-22T20-49-12_598-jvmRun1 surefire-20260122204912652_1tmp surefire_0-20260122204912652_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/test-classes:/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/classes:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-core/5.8.0/mockito-core-5.8.0.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/halilbagosi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-junit-jupiter/5.8.0/mockito-junit-jupiter-5.8.0.jar:/Users/halilbagosi/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/halilbagosi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/surefire/surefirebooter-20260122204912652_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="halilbagosi"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/halilbagosi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/kc/b14h7ppn7kg5q5gfk8zcsxfm0000gn/T/"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/halilbagosi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testFindItemByName_ECT_EmptyInventory" classname="project.projecte.Model.InventoryTest" time="0.017">
+    <failure message="Should return null when inventory is empty ==&gt; expected: &lt;null&gt; but was: &lt;Apple (Groceries) - Purchase Price: $0.3, Selling Price: $0.6, Stock: 150&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Should return null when inventory is empty ==> expected: <null> but was: <Apple (Groceries) - Purchase Price: $0.3, Selling Price: $0.6, Stock: 150>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNull.failNotNull(AssertNull.java:50)
+	at org.junit.jupiter.api.AssertNull.assertNull(AssertNull.java:35)
+	at org.junit.jupiter.api.Assertions.assertNull(Assertions.java:287)
+	at project.projecte.Model.InventoryTest.testFindItemByName_ECT_EmptyInventory(InventoryTest.java:193)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testFindItemByName_ECT_ItemDoesNotExist" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateStockLevel_DT_T1_ExistsValidStock" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <failure message="Stock level should be updated ==&gt; expected: &lt;50&gt; but was: &lt;100&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Stock level should be updated ==> expected: <50> but was: <100>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at project.projecte.Model.InventoryTest.testUpdateStockLevel_DT_T1_ExistsValidStock(InventoryTest.java:216)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testGetItems_ShouldReturnNonNullList" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveItem_ExistingItem_ShouldRemove" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <failure message="Size should decrease by 1 ==&gt; expected: &lt;6&gt; but was: &lt;5&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Size should decrease by 1 ==> expected: <6> but was: <5>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at project.projecte.Model.InventoryTest.testRemoveItem_ExistingItem_ShouldRemove(InventoryTest.java:298)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateStockLevel_DT_T5_NullName" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testFindItemByName_ECT_ItemExists" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testAddItem_MultipleItems_ShouldAddAll" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testAddItem_SameName_CreatesSeparateEntry" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveItem_NullName_ShouldHandleGracefully" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testGetItems_NewInventory_ShouldReturnList" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testFindItemByName_ECT_EmptyString" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testDisplayItems_WithItems_ShouldNotThrow" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+Inventory Items:
+Laptop (Electronics) - Purchase Price: $650.0, Selling Price: $850.0, Stock: 12
+Keyboard (Accessories) - Purchase Price: $10.0, Selling Price: $18.0, Stock: 42
+Mouse (Accessories) - Purchase Price: $6.0, Selling Price: $12.0, Stock: 60
+Apple (Groceries) - Purchase Price: $0.3, Selling Price: $0.6, Stock: 150
+Water Bottle (Groceries) - Purchase Price: $0.2, Selling Price: $0.5, Stock: 200
+Apple (Fruits) - Purchase Price: $0.5, Selling Price: $1.0, Stock: 100
+Banana (Fruits) - Purchase Price: $0.3, Selling Price: $0.8, Stock: 50
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateStockLevel_AfterRemove_ShouldReturnFalse" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveItem_EmptyInventory_ShouldReturnFalse" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <failure message="Should return false for empty inventory ==&gt; expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Should return false for empty inventory ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at project.projecte.Model.InventoryTest.testRemoveItem_EmptyInventory_ShouldReturnFalse(InventoryTest.java:351)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testAddItem_ValidItem_ShouldAdd" classname="project.projecte.Model.InventoryTest" time="0.003">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateStockLevel_DT_T3_NotExistsValidStock" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateStockLevel_DT_T4_NotExistsInvalidStock" classname="project.projecte.Model.InventoryTest" time="0.003">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveItem_CaseInsensitive_ShouldRemove" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testFindItemByName_SimilarNames_ShouldFindCorrect" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testFindItemByName_ECT_ItemExistsDifferentCase" classname="project.projecte.Model.InventoryTest" time="0.005">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveItem_NonExistentItem_ShouldReturnFalse" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateStockLevel_ZeroStock" classname="project.projecte.Model.InventoryTest" time="0.003">
+    <failure message="Stock should be 0 ==&gt; expected: &lt;0&gt; but was: &lt;100&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Stock should be 0 ==> expected: <0> but was: <100>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at project.projecte.Model.InventoryTest.testUpdateStockLevel_ZeroStock(InventoryTest.java:280)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testAddItem_ManyItems_ShouldWork" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testAddItem_DuplicateItem_ShouldAdd" classname="project.projecte.Model.InventoryTest" time="0.001">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testDisplayItems_EmptyInventory_ShouldNotThrow" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+Inventory Items:
+Laptop (Electronics) - Purchase Price: $650.0, Selling Price: $850.0, Stock: 12
+Keyboard (Accessories) - Purchase Price: $10.0, Selling Price: $18.0, Stock: 42
+Mouse (Accessories) - Purchase Price: $6.0, Selling Price: $12.0, Stock: 60
+Apple (Groceries) - Purchase Price: $0.3, Selling Price: $0.6, Stock: 150
+Water Bottle (Groceries) - Purchase Price: $0.2, Selling Price: $0.5, Stock: 200
+]]></system-out>
+  </testcase>
+  <testcase name="testFindItemByName_ECT_NullName" classname="project.projecte.Model.InventoryTest" time="0.003">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateStockLevel_DT_T2_ExistsInvalidStock" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <failure message="Negative stock is currently allowed ==&gt; expected: &lt;-10&gt; but was: &lt;100&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Negative stock is currently allowed ==> expected: <-10> but was: <100>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at project.projecte.Model.InventoryTest.testUpdateStockLevel_DT_T2_ExistsInvalidStock(InventoryTest.java:230)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testAddItem_Null_ShouldAddButMayCauseIssuesLater" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+</testsuite>

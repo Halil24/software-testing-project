@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="project.projecte.Model.BillManagerTest" time="0.088" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/test-classes:/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/classes:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-core/5.8.0/mockito-core-5.8.0.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/halilbagosi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-junit-jupiter/5.8.0/mockito-junit-jupiter-5.8.0.jar:/Users/halilbagosi/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Tirane"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/surefire/surefirebooter-20260122204912652_3.jar /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/surefire 2026-01-22T20-49-12_598-jvmRun1 surefire-20260122204912652_1tmp surefire_0-20260122204912652_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/test-classes:/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/classes:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-core/5.8.0/mockito-core-5.8.0.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/halilbagosi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-junit-jupiter/5.8.0/mockito-junit-jupiter-5.8.0.jar:/Users/halilbagosi/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/halilbagosi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/surefire/surefirebooter-20260122204912652_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="halilbagosi"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/halilbagosi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/kc/b14h7ppn7kg5q5gfk8zcsxfm0000gn/T/"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/halilbagosi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testGetBillsWithinDateRange_MCDC_T2_BeforeStart" classname="project.projecte.Model.BillManagerTest" time="0.003">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 13 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 13 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager: Loaded 13 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_MCDC_T6_AtEndBoundary" classname="project.projecte.Model.BillManagerTest" time="0.003">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 14 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 14 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager: Loaded 14 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_MCDC_T1_BeforeRange" classname="project.projecte.Model.BillManagerTest" time="0.002">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 15 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 15 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager: Loaded 15 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_Coverage_InvertedRange" classname="project.projecte.Model.BillManagerTest" time="0.002">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 16 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 16 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager: Loaded 16 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testAddBill_ValidBill_ShouldAdd" classname="project.projecte.Model.BillManagerTest" time="0.003">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 17 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 17 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager: Loaded 17 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBills_ShouldReturnNonNullList" classname="project.projecte.Model.BillManagerTest" time="0.002">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 18 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 18 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager: Loaded 18 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetTodayBills_TodayBills_ShouldReturn" classname="project.projecte.Model.BillManagerTest" time="0.019">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 18 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 18 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager: Loaded 18 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_MCDC_T4_WithinRange" classname="project.projecte.Model.BillManagerTest" time="0.003">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 20 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 20 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager: Loaded 20 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetTodayBills_NoBillsToday_ShouldReturnEmpty" classname="project.projecte.Model.BillManagerTest" time="0.001">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 21 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 21 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager: Loaded 21 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testAddBill_Null_MayAddButCauseIssuesLater" classname="project.projecte.Model.BillManagerTest" time="0.002">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 21 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 21 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager: Loaded 21 bills from data/bills_data.ser
+]]></system-out>
+    <system-err><![CDATA[Warning: Attempted to add null bill - ignoring
+]]></system-err>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_Coverage_MultipleBillsInRange" classname="project.projecte.Model.BillManagerTest" time="0.004">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 21 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 21 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager: Loaded 21 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_Coverage_NoBills" classname="project.projecte.Model.BillManagerTest" time="0.002">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 24 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 24 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667245 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.667254 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667257 - Amount: $0.0
+DEBUG BillManager: Loaded 24 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_Coverage_SameDateRange" classname="project.projecte.Model.BillManagerTest" time="0.009">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 24 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 24 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667245 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.667254 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667257 - Amount: $0.0
+DEBUG BillManager: Loaded 24 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetTodayBills_ShouldReturnNonNullList" classname="project.projecte.Model.BillManagerTest" time="0.002">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 25 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 25 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667245 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.667254 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667257 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.674591 - Amount: $0.0
+DEBUG BillManager: Loaded 25 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBills_ShouldReturnAllBills" classname="project.projecte.Model.BillManagerTest" time="0.006">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 25 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 25 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667245 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.667254 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667257 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.674591 - Amount: $0.0
+DEBUG BillManager: Loaded 25 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_MCDC_ConditionB_IndependentEffect" classname="project.projecte.Model.BillManagerTest" time="0.003">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 27 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 27 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667245 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.667254 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667257 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.674591 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.685086 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.685096 - Amount: $0.0
+DEBUG BillManager: Loaded 27 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_MCDC_T3_AfterEnd" classname="project.projecte.Model.BillManagerTest" time="0.003">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 28 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 28 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667245 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.667254 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667257 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.674591 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.685086 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.685096 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.691682 - Amount: $0.0
+DEBUG BillManager: Loaded 28 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_MCDC_T5_AtStartBoundary" classname="project.projecte.Model.BillManagerTest" time="0.003">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 29 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 29 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667245 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.667254 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667257 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.674591 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.685086 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.685096 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.691682 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.695701 - Amount: $0.0
+DEBUG BillManager: Loaded 29 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testAddBill_MultipleBills_ShouldAddAll" classname="project.projecte.Model.BillManagerTest" time="0.005">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 30 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 30 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667245 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.667254 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667257 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.674591 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.685086 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.685096 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.691682 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.695701 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.699011 - Amount: $0.0
+DEBUG BillManager: Loaded 30 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBillsWithinDateRange_MCDC_ConditionA_IndependentEffect" classname="project.projecte.Model.BillManagerTest" time="0.004">
+    <system-out><![CDATA[DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: File exists, loading...
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 33 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 33 valid bills
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667245 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.667254 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667257 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.674591 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.685086 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.685096 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.691682 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.695701 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.699011 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.701607 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.701615 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.701617 - Amount: $0.0
+DEBUG BillManager: Loaded 33 bills from data/bills_data.ser
+]]></system-out>
+  </testcase>
+</testsuite>

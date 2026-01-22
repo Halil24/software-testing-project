@@ -1,0 +1,5 @@
+admin,admin123,Administrator
+manager,manager123,Manager
+cashier,cashier123,Cashier
+dea,dea123,Manager
+test1,test1,Cashier

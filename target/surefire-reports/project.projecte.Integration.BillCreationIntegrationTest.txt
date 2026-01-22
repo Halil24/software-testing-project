@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: project.projecte.Integration.BillCreationIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.092 s <<< FAILURE! -- in project.projecte.Integration.BillCreationIntegrationTest
+project.projecte.Integration.BillCreationIntegrationTest.testIntegration_CreateBillWithSingleItem -- Time elapsed: 0.027 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Initial stock should be 100 ==> expected: <100> but was: <150>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at project.projecte.Integration.BillCreationIntegrationTest.testIntegration_CreateBillWithSingleItem(BillCreationIntegrationTest.java:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+project.projecte.Integration.BillCreationIntegrationTest.testIntegration_CompleteSaleWorkflow -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Total should be calculated correctly ==> expected: <11.0> but was: <8.2>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at project.projecte.Integration.BillCreationIntegrationTest.testIntegration_CompleteSaleWorkflow(BillCreationIntegrationTest.java:352)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
