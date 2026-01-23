@@ -88,7 +88,7 @@ class InventoryTest {
 
         // Assert
         assertTrue(inventory.getItems().size() >= 2, "Duplicate items should be added");
-        // Note: This might be a design issue - should duplicates be prevented?
+
     }
 
     @Test
@@ -193,14 +193,7 @@ class InventoryTest {
         assertNull(found, "Should return null when inventory is empty");
     }
 
-    // ==================== Decision Table: updateStockLevel() ====================
-    // Decision Table for updateStockLevel(String name, int newStockLevel)
-    //
-    // Conditions: | T1 | T2 | T3 | T4 | T5 |
-    // Item exists? | Y | Y | N | N | Y |
-    // Stock valid (>= 0)? | Y | N | Y | N | Y |
-    // Name is null? | N | N | N | N | Y |
-    // Action: | OK | NO | NO | NO | NO |
+
 
     @Test
     @DisplayName("DT-T1: updateStockLevel - Item exists, valid stock -> Update")
@@ -260,9 +253,7 @@ class InventoryTest {
         // Act
         boolean result = inventory.updateStockLevel(null, 50);
 
-        // Assert
-        // Note: Current implementation returns false for null (no exception thrown)
-        // This documents actual behavior (no validation, just returns false)
+
         assertFalse(result, "Should return false for null name (no validation implemented)");
     }
 
@@ -335,9 +326,6 @@ class InventoryTest {
         // Act
         boolean result = inventory.removeItem(null);
 
-        // Assert
-        // Note: Current implementation returns false for null (no exception thrown)
-        // This documents actual behavior (no validation, just returns false)
         assertFalse(result, "Should return false for null name (no validation implemented)");
     }
 
@@ -351,7 +339,6 @@ class InventoryTest {
         assertFalse(result, "Should return false for empty inventory");
     }
 
-    // ==================== getItems() Tests ====================
 
     @Test
     @DisplayName("getItems should return non-null list")
@@ -441,8 +428,6 @@ class InventoryTest {
         assertFalse(result, "Should return false for removed item");
     }
 
-    // ==================== User Requested Inventory Tests ====================
-
     @Test
     @DisplayName("BVT-04: Shortest Name 'A'")
     void testBVT_04_ShortestName_A() {
@@ -488,8 +473,6 @@ class InventoryTest {
         Item found = inventory.findItemByName("");
         assertNull(found, "Should return null for empty string search even if inventory has items");
     }
-
-    // ==================== Business Logic Tests ====================
 
     @Test
     @DisplayName("Adding item with same name as existing item creates separate entry")

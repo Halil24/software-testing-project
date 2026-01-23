@@ -455,8 +455,7 @@ class BillManagerTest {
     @Test
     @DisplayName("ECT-03: Wide Range (2020-2030) - All Bills")
     void testECT_03_WideDateRange_AllBills() {
-        // ECT-03: Start: 2020-01-01, End: 2030-01-01 -> Return All Bills (assuming test
-        // data is within this)
+
         LocalDate start = LocalDate.of(2020, 1, 1);
         LocalDate end = LocalDate.of(2030, 1, 1);
 
@@ -466,11 +465,6 @@ class BillManagerTest {
 
         List<Bill> result = billManager.getBillsWithinDateRange(start, end);
 
-        // Current test bills are created 'now' (which is likely within 2020-2030)
-        // We assert that the result size equals the total bills size (effectively all
-        // bills)
-        // UNLESS there are old data files. Safer to just check our added bills are
-        // there.
         assertTrue(result.contains(testBill1));
         assertTrue(result.contains(testBill2));
     }
@@ -486,30 +480,4 @@ class BillManagerTest {
 
     // ==================== Coverage Summary ====================
 
-    /**
-     * COVERAGE SUMMARY FOR BillManagerTest:
-     * 
-     * 1. STATEMENT COVERAGE: 100%
-     * - All statements in all methods executed
-     * - Empty list cases covered
-     * - Non-empty list cases covered
-     * - All return statements executed
-     * 
-     * 2. BRANCH COVERAGE: 100%
-     * - Filter conditions: both true and false branches covered
-     * - Stream operations: empty and non-empty streams covered
-     * - All conditional logic paths executed
-     * 
-     * 3. CONDITION COVERAGE: 100%
-     * - Condition A (!isBefore): both TRUE and FALSE
-     * - Condition B (!isAfter): both TRUE and FALSE
-     * - All possible combinations tested
-     * 
-     * 4. MC/DC COVERAGE: 100%
-     * - Condition A independently affects outcome: Proven in T2 vs T6
-     * - Condition B independently affects outcome: Proven in T3 vs T6
-     * - All conditions tested for independent effect
-     * 
-     * CONCLUSION: This test suite achieves 100% coverage across all metrics.
-     */
 }
