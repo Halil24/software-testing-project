@@ -1,33 +1,33 @@
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/module-info.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Controller/AdminController.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Controller/CashierController.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Controller/EmployeeController.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Controller/EmployeeManager.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Controller/FinancialController.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Controller/LoginController.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Controller/ManagerController.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Controller/SupplierController.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/DAO/FileManagement.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Main/AppProgram.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/Admin.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/Bill.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/BillItem.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/BillManager.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/Cashier.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/Employee.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/Inventory.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/Item.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/Manager.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/SalesStatistics.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/Supplier.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/User.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/Model/UserManager.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/View/AdministratorView.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/View/CashierView.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/View/EmployeeView.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/View/ItemView.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/View/LoginView.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/View/ManagerView.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/View/SupplierView.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/View/UserManagementView.java
-/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/src/main/java/project/projecte/kgkfg.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/module-info.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Controller/AdminController.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Controller/CashierController.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Controller/EmployeeController.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Controller/EmployeeManager.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Controller/FinancialController.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Controller/LoginController.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Controller/ManagerController.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Controller/SupplierController.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/DAO/FileManagement.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Main/AppProgram.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/Admin.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/Bill.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/BillItem.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/BillManager.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/Cashier.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/Employee.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/Inventory.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/Item.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/Manager.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/SalesStatistics.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/Supplier.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/User.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/Model/UserManager.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/View/AdministratorView.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/View/CashierView.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/View/EmployeeView.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/View/ItemView.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/View/LoginView.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/View/ManagerView.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/View/SupplierView.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/View/UserManagementView.java
+/Users/halilbagosi/Documents/GitHub/software-testing-project/src/main/java/project/projecte/kgkfg.java

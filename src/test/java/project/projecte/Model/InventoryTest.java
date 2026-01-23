@@ -41,7 +41,8 @@ class InventoryTest {
         // Note: Inventory constructor auto-loads from file
         // For isolated testing, we might need to modify the class
         inventory = new Inventory();
-        
+        inventory.getItems().clear(); // Fix: Clear auto-loaded items for test isolation
+
         testItem1 = new Item("Apple", "Fruits", 0.50, 1.00, 100);
         testItem2 = new Item("Banana", "Fruits", 0.30, 0.80, 50);
         testItem3 = new Item("Carrot", "Vegetables", 0.20, 0.60, 200);
@@ -96,7 +97,7 @@ class InventoryTest {
         // This test documents current behavior
         // Act - adding null might work initially but cause problems later
         assertDoesNotThrow(() -> inventory.addItem(null));
-        
+
         // TODO: Should add validation to prevent null items
     }
 
@@ -132,10 +133,9 @@ class InventoryTest {
 
         // Assert
         assertAll("Case insensitive search",
-            () -> assertNotNull(found1, "Should find with lowercase"),
-            () -> assertNotNull(found2, "Should find with uppercase"),
-            () -> assertNotNull(found3, "Should find with mixed case")
-        );
+                () -> assertNotNull(found1, "Should find with lowercase"),
+                () -> assertNotNull(found2, "Should find with uppercase"),
+                () -> assertNotNull(found3, "Should find with mixed case"));
     }
 
     @Test
@@ -161,7 +161,7 @@ class InventoryTest {
 
         // Act
         Item found = inventory.findItemByName(null);
-        
+
         // Assert
         // Note: Current implementation returns null instead of throwing exception
         // This documents actual behavior (no validation exists)
@@ -196,11 +196,11 @@ class InventoryTest {
     // ==================== Decision Table: updateStockLevel() ====================
     // Decision Table for updateStockLevel(String name, int newStockLevel)
     //
-    // Conditions:           | T1 | T2 | T3 | T4 | T5 |
-    // Item exists?          | Y  | Y  | N  | N  | Y  |
-    // Stock valid (>= 0)?   | Y  | N  | Y  | N  | Y  |
-    // Name is null?         | N  | N  | N  | N  | Y  |
-    // Action:               | OK | NO | NO | NO | NO |
+    // Conditions: | T1 | T2 | T3 | T4 | T5 |
+    // Item exists? | Y | Y | N | N | Y |
+    // Stock valid (>= 0)? | Y | N | Y | N | Y |
+    // Name is null? | N | N | N | N | Y |
+    // Action: | OK | NO | NO | NO | NO |
 
     @Test
     @DisplayName("DT-T1: updateStockLevel - Item exists, valid stock -> Update")
@@ -259,7 +259,7 @@ class InventoryTest {
 
         // Act
         boolean result = inventory.updateStockLevel(null, 50);
-        
+
         // Assert
         // Note: Current implementation returns false for null (no exception thrown)
         // This documents actual behavior (no validation, just returns false)
@@ -334,7 +334,7 @@ class InventoryTest {
 
         // Act
         boolean result = inventory.removeItem(null);
-        
+
         // Assert
         // Note: Current implementation returns false for null (no exception thrown)
         // This documents actual behavior (no validation, just returns false)
@@ -379,8 +379,8 @@ class InventoryTest {
     @DisplayName("displayItems should not throw exception with empty inventory")
     void testDisplayItems_EmptyInventory_ShouldNotThrow() {
         // Act & Assert
-        assertDoesNotThrow(() -> inventory.displayItems(), 
-                          "displayItems should not throw exception");
+        assertDoesNotThrow(() -> inventory.displayItems(),
+                "displayItems should not throw exception");
     }
 
     @Test
@@ -391,8 +391,8 @@ class InventoryTest {
         inventory.addItem(testItem2);
 
         // Act & Assert
-        assertDoesNotThrow(() -> inventory.displayItems(), 
-                          "displayItems should not throw exception");
+        assertDoesNotThrow(() -> inventory.displayItems(),
+                "displayItems should not throw exception");
     }
 
     // ==================== Edge Cases ====================
@@ -439,6 +439,54 @@ class InventoryTest {
 
         // Assert
         assertFalse(result, "Should return false for removed item");
+    }
+
+    // ==================== User Requested Inventory Tests ====================
+
+    @Test
+    @DisplayName("BVT-04: Shortest Name 'A'")
+    void testBVT_04_ShortestName_A() {
+        // BVT-04: Shortest Name "A" -> Return Item "A"
+        Item itemA = new Item("A", "Test", 1.0, 1.0, 10);
+        inventory.addItem(itemA);
+
+        Item found = inventory.findItemByName("A");
+        assertNotNull(found, "Should find item with single character name 'A'");
+        assertEquals("A", found.getName());
+    }
+
+    @Test
+    @DisplayName("ECT-04: Partial String Match (Invalid) -> Return Null")
+    void testECT_04_PartialMatch_ShouldReturnNull() {
+        // ECT-04: Partial String "App" (Item is "Apple") -> Return null (Exact match
+        // required)
+        inventory.addItem(testItem1); // Apple
+
+        Item found = inventory.findItemByName("App");
+        assertNull(found, "Should not find item with partial match 'App'");
+    }
+
+    @Test
+    @DisplayName("BVT-03: Max Integer Stock")
+    void testBVT_03_MaxIntegerStock() {
+        // BVT-03: Max Integer Stock (2147483647) -> Stock = MAX, Return true
+        inventory.addItem(testItem1);
+
+        boolean result = inventory.updateStockLevel("Apple", Integer.MAX_VALUE);
+
+        assertTrue(result, "Should successfully update to MAX_VALUE");
+        assertEquals(Integer.MAX_VALUE, testItem1.getStockLevel(), "Stock level should be Integer.MAX_VALUE");
+    }
+
+    @Test
+    @DisplayName("BVT-05: Empty String - Contains items -> Return null")
+    void testBVT_05_EmptyString_ContainsItems() {
+        // BVT-05: Empty String "" - Contains items -> Return null
+        // (Re-verifying existing behavior mentioned in ECT-EmptyString but explicitly
+        // as BVT)
+        inventory.addItem(testItem1);
+        Item found = inventory.findItemByName("");
+        assertNull(found, "Should return null for empty string search even if inventory has items");
     }
 
     // ==================== Business Logic Tests ====================

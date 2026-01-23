@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: project.projecte.Model.BillManagerTest
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s -- in project.projecte.Model.BillManagerTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.236 s -- in project.projecte.Model.BillManagerTest
