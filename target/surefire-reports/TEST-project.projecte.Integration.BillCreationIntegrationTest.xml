@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="project.projecte.Integration.BillCreationIntegrationTest" time="0.092" tests="8" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="project.projecte.Integration.BillCreationIntegrationTest" time="0.195" tests="8" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/test-classes:/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/classes:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-core/5.8.0/mockito-core-5.8.0.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/halilbagosi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-junit-jupiter/5.8.0/mockito-junit-jupiter-5.8.0.jar:/Users/halilbagosi/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
+    <property name="java.class.path" value="/Users/halilbagosi/Documents/GitHub/software-testing-project/target/test-classes:/Users/halilbagosi/Documents/GitHub/software-testing-project/target/classes:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-core/5.8.0/mockito-core-5.8.0.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/halilbagosi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-junit-jupiter/5.8.0/mockito-junit-jupiter-5.8.0.jar:/Users/halilbagosi/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/surefire/surefirebooter-20260122204912652_3.jar /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/surefire 2026-01-22T20-49-12_598-jvmRun1 surefire-20260122204912652_1tmp surefire_0-20260122204912652_2tmp"/>
+    <property name="sun.java.command" value="/Users/halilbagosi/Documents/GitHub/software-testing-project/target/surefire/surefirebooter-20260123122247200_3.jar /Users/halilbagosi/Documents/GitHub/software-testing-project/target/surefire 2026-01-23T12-22-47_129-jvmRun1 surefire-20260123122247200_1tmp surefire_0-20260123122247200_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/test-classes:/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/classes:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-core/5.8.0/mockito-core-5.8.0.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/halilbagosi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-junit-jupiter/5.8.0/mockito-junit-jupiter-5.8.0.jar:/Users/halilbagosi/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/halilbagosi/Documents/GitHub/software-testing-project/target/test-classes:/Users/halilbagosi/Documents/GitHub/software-testing-project/target/classes:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-core/5.8.0/mockito-core-5.8.0.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/halilbagosi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-junit-jupiter/5.8.0/mockito-junit-jupiter-5.8.0.jar:/Users/halilbagosi/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/halilbagosi"/>
     <property name="user.language" value="en"/>
@@ -24,13 +24,13 @@
     <property name="java.version.date" value="2025-10-21"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE"/>
+    <property name="basedir" value="/Users/halilbagosi/Documents/GitHub/software-testing-project"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/target/surefire/surefirebooter-20260122204912652_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/halilbagosi/Documents/GitHub/software-testing-project/target/surefire/surefirebooter-20260123122247200_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.1"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/kc/b14h7ppn7kg5q5gfk8zcsxfm0000gn/T/"/>
     <property name="java.version" value="25.0.1"/>
-    <property name="user.dir" value="/Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE"/>
+    <property name="user.dir" value="/Users/halilbagosi/Documents/GitHub/software-testing-project"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -60,7 +60,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testIntegration_CreateBillWithSingleItem" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.027">
+  <testcase name="testIntegration_CreateBillWithSingleItem" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.03">
     <failure message="Initial stock should be 100 ==&gt; expected: &lt;100&gt; but was: &lt;150&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Initial stock should be 100 ==> expected: <100> but was: <150>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -73,12 +73,217 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></failure>
     <system-out><![CDATA[=== Starting Bill Creation Integration Test ===
-DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Library/Mobile Documents/com~apple~CloudDocs/University/Year 2/Semester 1/CEN215 - Object-Oriented Programming/Project/projectE/data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: Looking for /Users/halilbagosi/Documents/GitHub/software-testing-project/data/bills_data.ser
 DEBUG BillManager.loadBillsFromFile: File exists, loading...
-DEBUG BillManager.loadBillsFromFile: Successfully loaded 1 bills
-DEBUG BillManager.loadBillsFromFile: After filtering nulls: 1 valid bills
+DEBUG BillManager.loadBillsFromFile: Successfully loaded 206 bills
+DEBUG BillManager.loadBillsFromFile: After filtering nulls: 206 valid bills
 DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: test1 - Date: 2026-01-22T17:51:53.411851 - Amount: $54.0
-DEBUG BillManager: Loaded 1 bills from data/bills_data.ser
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: testCashier - Date: 2026-01-22T20:49:13.432652 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: testCashier - Date: 2026-01-22T20:49:13.438675 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.440945 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.441467 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.441931 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.443814 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.444421 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.445057 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #10 - Cashier: testCashier - Date: 2026-01-22T20:49:13.453698 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.455421 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.456084 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.456860 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.623062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.626762 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.629792 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.632328 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.634907 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.639981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.639991 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.660503 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667245 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.667254 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.667257 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.674591 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.685086 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.685096 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.691682 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.695701 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.699011 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.701607 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T20:49:13.701615 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.701617 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T20:49:13.706701 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.388842 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.406214 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.412311 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.418432 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.423511 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.433335 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T21:27:10.433346 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.446917 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.460048 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T21:27:10.460059 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.460062 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.472200 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.481744 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T21:27:10.481759 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.488368 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.493594 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.497292 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.503533 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-22T21:27:10.503547 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.503549 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-22T21:27:10.514803 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #56 - Cashier: testCashier - Date: 2026-01-22T21:28:06.930938 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #57 - Cashier: testCashier - Date: 2026-01-22T21:28:06.946323 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-22T21:28:06.952404 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-22T21:28:06.956053 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-22T21:28:06.958489 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-22T21:28:06.966464 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-22T21:28:06.971133 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-22T21:28:06.973775 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #64 - Cashier: testCashier - Date: 2026-01-22T21:28:06.981534 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-22T21:28:06.986438 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-22T21:28:06.988635 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-22T21:28:06.990501 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.400909 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.415109 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.424481 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.432853 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.440466 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.452454 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:13:14.452467 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.466981 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.480399 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:13:14.480411 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.480415 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.499765 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.510065 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:13:14.510100 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.518738 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.525122 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.531151 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.542083 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:13:14.542091 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.554550 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:13:14.554557 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.554558 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:13:14.567524 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.264410 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.281420 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.292546 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.301612 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.309863 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.322775 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:14:26.322788 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.338303 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.355225 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:14:26.355236 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.355238 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.380133 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.393100 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:14:26.393108 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.404745 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.413509 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.421937 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.430097 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:14:26.430104 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.447680 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:14:26.447687 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.447688 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:14:26.463021 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #114 - Cashier: testCashier - Date: 2026-01-23T12:17:23.362065 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #115 - Cashier: testCashier - Date: 2026-01-23T12:17:23.383571 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-23T12:17:23.398542 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-23T12:17:23.405297 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-23T12:17:23.411497 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-23T12:17:23.419310 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-23T12:17:23.424916 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-23T12:17:23.429272 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #122 - Cashier: testCashier - Date: 2026-01-23T12:17:23.440545 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-23T12:17:23.447151 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-23T12:17:23.452116 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-23T12:17:23.456620 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.590519 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.634143 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.652185 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.664881 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.677325 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.697277 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:17:35.697292 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.717947 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.743942 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:17:35.743955 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.743957 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.770802 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.785336 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:17:35.785347 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.798719 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.809594 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.818980 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.828360 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:17:35.828373 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.847383 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:17:35.847395 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.847397 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:17:35.864603 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #149 - Cashier: testCashier - Date: 2026-01-23T12:18:13.622031 - Amount: $26.0
+DEBUG BillManager.loadBillsFromFile: Bill #150 - Cashier: testCashier - Date: 2026-01-23T12:18:13.647408 - Amount: $15.0
+DEBUG BillManager.loadBillsFromFile: Bill #101 - Cashier: cashier1 - Date: 2026-01-23T12:18:13.658184 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #102 - Cashier: cashier2 - Date: 2026-01-23T12:18:13.665424 - Amount: $2.4000000000000004
+DEBUG BillManager.loadBillsFromFile: Bill #103 - Cashier: cashier1 - Date: 2026-01-23T12:18:13.671171 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #201 - Cashier: cashier1 - Date: 2026-01-23T12:18:13.678571 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #202 - Cashier: cashier1 - Date: 2026-01-23T12:18:13.683381 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #203 - Cashier: cashier2 - Date: 2026-01-23T12:18:13.687959 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #157 - Cashier: testCashier - Date: 2026-01-23T12:18:13.699719 - Amount: $5.0
+DEBUG BillManager.loadBillsFromFile: Bill #301 - Cashier: cashier1 - Date: 2026-01-23T12:18:13.706351 - Amount: $10.0
+DEBUG BillManager.loadBillsFromFile: Bill #302 - Cashier: cashier2 - Date: 2026-01-23T12:18:13.710981 - Amount: $8.0
+DEBUG BillManager.loadBillsFromFile: Bill #303 - Cashier: cashier1 - Date: 2026-01-23T12:18:13.715655 - Amount: $6.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.129255 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.183645 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.206133 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.220903 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.239439 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.258319 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:18:22.258334 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.284624 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.309468 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:18:22.309479 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.309480 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.349112 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.371636 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:18:22.371665 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.389462 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.402249 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.413791 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.425281 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:18:22.425291 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.447851 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:18:22.447861 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.447862 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:18:22.468533 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.536582 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.573116 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.597785 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.614803 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.629018 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.649566 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:19:14.649581 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.675035 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.701587 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:19:14.701599 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.701601 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.738476 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.757106 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:19:14.757133 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.775524 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.788627 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.800894 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.812785 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:19:14.812793 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.836461 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #2 - Cashier: cashier2 - Date: 2026-01-23T12:19:14.836470 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #3 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.836471 - Amount: $0.0
+DEBUG BillManager.loadBillsFromFile: Bill #1 - Cashier: cashier1 - Date: 2026-01-23T12:19:14.859634 - Amount: $0.0
+DEBUG BillManager: Loaded 206 bills from data/bills_data.ser
 DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -93,7 +298,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 
 --- IT-01: Create bill with single item ---
-Test completed. Current bills count: 1
+Test completed. Current bills count: 206
 ]]></system-out>
     <system-err><![CDATA[java.lang.instrument.IllegalClassFormatException: Error while instrumenting project/projecte/Integration/BillCreationIntegrationTest with JaCoCo 0.8.11.202310140853/f33756c.
 	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:94)
@@ -659,34 +864,34 @@ Caused by: java.lang.IllegalArgumentException: Unsupported class file major vers
 	... 104 more
 ]]></system-err>
   </testcase>
-  <testcase name="testIntegration_CreateBillWithMultipleItems" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.005">
+  <testcase name="testIntegration_CreateBillWithMultipleItems" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.015">
     <system-out><![CDATA[
 --- IT-02: Create bill with multiple items ---
 ✓ Multi-item bill total: $26.0
-Test completed. Current bills count: 2
+Test completed. Current bills count: 207
 ]]></system-out>
   </testcase>
-  <testcase name="testIntegration_StockUpdateAfterSale" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.002">
+  <testcase name="testIntegration_StockUpdateAfterSale" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.009">
     <system-out><![CDATA[
 --- IT-03: Stock update after sale (conceptual) ---
 Initial Apple stock: 100
 ✓ Stock updated from 100 to 85
-Test completed. Current bills count: 3
+Test completed. Current bills count: 208
 ]]></system-out>
   </testcase>
-  <testcase name="testIntegration_FilterBillsByDateRange" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.002">
+  <testcase name="testIntegration_FilterBillsByDateRange" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.022">
     <system-out><![CDATA[
 --- IT-04: Filter bills by date range ---
-✓ Found 6 bills in date range
-Test completed. Current bills count: 6
+✓ Found 211 bills in date range
+Test completed. Current bills count: 211
 ]]></system-out>
   </testcase>
-  <testcase name="testIntegration_CalculateTotalRevenue" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.009">
+  <testcase name="testIntegration_CalculateTotalRevenue" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.029">
     <system-out><![CDATA[
 --- IT-05: Calculate total revenue ---
-✓ Cashier1 revenue: $29.00
-✓ Total revenue: $132.40
-Test completed. Current bills count: 9
+✓ Cashier1 revenue: $119.00
+✓ Total revenue: $293.20
+Test completed. Current bills count: 214
 ]]></system-out>
     <system-err><![CDATA[java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/util/resources/cldr/provider/CLDRLocaleDataMetaInfo with JaCoCo 0.8.11.202310140853/f33756c.
 	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:94)
@@ -808,19 +1013,19 @@ Caused by: java.lang.IllegalArgumentException: Unsupported class file major vers
 	... 104 more
 ]]></system-err>
   </testcase>
-  <testcase name="testIntegration_BillWithFreeItems" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.001">
+  <testcase name="testIntegration_BillWithFreeItems" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.008">
     <system-out><![CDATA[
 --- IT-06: Bill with free items ---
 ✓ Bill with free items handled correctly
-Test completed. Current bills count: 10
+Test completed. Current bills count: 215
 ]]></system-out>
   </testcase>
-  <testcase name="testIntegration_MultipleCashierTracking" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.004">
+  <testcase name="testIntegration_MultipleCashierTracking" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.021">
     <system-out><![CDATA[
 --- IT-07: Multiple cashier tracking ---
-✓ Cashier1 bills: 6
-✓ Cashier2 bills: 3
-Test completed. Current bills count: 13
+✓ Cashier1 bills: 108
+✓ Cashier2 bills: 34
+Test completed. Current bills count: 218
 ]]></system-out>
   </testcase>
   <testcase name="testIntegration_CompleteSaleWorkflow" classname="project.projecte.Integration.BillCreationIntegrationTest" time="0.001">
@@ -839,9 +1044,9 @@ Test completed. Current bills count: 13
 --- IT-08: Complete sale workflow ---
 Step 1: Cashier 'testCashier' logged in
 Step 2: Customer selects items
-Step 3: Bill #14 created
+Step 3: Bill #219 created
 Step 4: Items added to bill
-Test completed. Current bills count: 13
+Test completed. Current bills count: 218
 ]]></system-out>
   </testcase>
 </testsuite>

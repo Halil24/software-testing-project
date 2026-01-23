@@ -426,22 +426,6 @@ class BillManagerTest {
     @Test
     @DisplayName("ECT-01: Valid Range (Subset) Jan 2026")
     void testECT_01_ValidRange_Subset() {
-        // Arrange
-        // Create bills with specific dates if possible, but since we rely on Bill
-        // creation time
-        // and cannot easily mock it without refactoring, we will simulate this by
-        // ensuring
-        // our test bills (created 'now') fall within or outside this range depending on
-        // when 'now' is.
-        // HOWEVER, strictly following the ECT requirement: "Start: 2026-01-01, End:
-        // 2026-01-31"
-        // If 'now' is not Jan 2026, this test might fail if it expects specific bills.
-        // Assuming the user wants us to TEST the filtering logic itself (which we can
-        // control via arguments).
-
-        // Let's create a scenario where we assume the 'current' bills form the dataset.
-        // If we strictly follow the user input "Start: 2026-01-01, End: 2026-01-31",
-        // we'll use those exact dates.
 
         LocalDate start = LocalDate.of(2026, 1, 1);
         LocalDate end = LocalDate.of(2026, 1, 31);

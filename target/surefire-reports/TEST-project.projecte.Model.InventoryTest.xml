@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="project.projecte.Model.InventoryTest" time="0.128" tests="33" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="project.projecte.Model.InventoryTest" time="0.083" tests="33" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -7,15 +7,15 @@
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Tirane"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/halilbagosi/Documents/GitHub/software-testing-project/target/surefire/surefirebooter-20260123121425463_3.jar /Users/halilbagosi/Documents/GitHub/software-testing-project/target/surefire 2026-01-23T12-14-25_393-jvmRun1 surefire-20260123121425463_1tmp surefire_0-20260123121425463_2tmp"/>
+    <property name="sun.java.command" value="/Users/halilbagosi/Documents/GitHub/software-testing-project/target/surefire/surefirebooter-20260123122247200_3.jar /Users/halilbagosi/Documents/GitHub/software-testing-project/target/surefire 2026-01-23T12-22-47_129-jvmRun1 surefire-20260123122247200_1tmp surefire_0-20260123122247200_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="BillManagerTest,InventoryTest"/>
     <property name="surefire.test.class.path" value="/Users/halilbagosi/Documents/GitHub/software-testing-project/target/test-classes:/Users/halilbagosi/Documents/GitHub/software-testing-project/target/classes:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:/Users/halilbagosi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1-mac-aarch64.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/halilbagosi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-core/5.8.0/mockito-core-5.8.0.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/halilbagosi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/halilbagosi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/halilbagosi/.m2/repository/org/mockito/mockito-junit-jupiter/5.8.0/mockito-junit-jupiter-5.8.0.jar:/Users/halilbagosi/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/halilbagosi"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/halilbagosi/Documents/GitHub/software-testing-project/target/surefire/surefirebooter-20260123121425463_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/halilbagosi/Documents/GitHub/software-testing-project/target/surefire/surefirebooter-20260123122247200_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.1"/>
@@ -60,296 +60,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testFindItemByName_ECT_EmptyInventory" classname="project.projecte.Model.InventoryTest" time="0.039">
-    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
-DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
-DEBUG Inventory.loadInventory: Added item: Laptop
-DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
-DEBUG Inventory.loadInventory: Added item: Keyboard
-DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
-DEBUG Inventory.loadInventory: Added item: Mouse
-DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
-DEBUG Inventory.loadInventory: Added item: Apple
-DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
-DEBUG Inventory.loadInventory: Added item: Water Bottle
-DEBUG Inventory.loadInventory: Loaded 5 items total
-]]></system-out>
-    <system-err><![CDATA[java.lang.instrument.IllegalClassFormatException: Error while instrumenting project/projecte/Model/InventoryTest with JaCoCo 0.8.11.202310140853/f33756c.
-	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:94)
-	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:257)
-	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
-	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:594)
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:962)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:144)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:776)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:691)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:620)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:578)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
-	at org.apache.maven.surefire.api.util.DefaultScanResult.loadClass(DefaultScanResult.java:115)
-	at org.apache.maven.surefire.api.util.DefaultScanResult.applyFilter(DefaultScanResult.java:85)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.scanClasspath(JUnitPlatformProvider.java:142)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.io.IOException: Error while instrumenting project/projecte/Model/InventoryTest with JaCoCo 0.8.11.202310140853/f33756c.
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrumentError(Instrumenter.java:161)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:111)
-	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:92)
-	... 19 more
-Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 67
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:200)
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:180)
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:166)
-	at org.jacoco.agent.rt.internal_4742761.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:77)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:109)
-	... 20 more
-java.lang.instrument.IllegalClassFormatException: Error while instrumenting project/projecte/Model/Item with JaCoCo 0.8.11.202310140853/f33756c.
-	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:94)
-	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:257)
-	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
-	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:594)
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:962)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:144)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:776)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:691)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:620)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:578)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
-	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3010)
-	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2329)
-	at org.junit.platform.commons.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:1568)
-	at org.junit.platform.commons.util.ReflectionUtils.findMethod(ReflectionUtils.java:1408)
-	at org.junit.platform.commons.util.ReflectionUtils.isMethodPresent(ReflectionUtils.java:1306)
-	at org.junit.jupiter.engine.discovery.predicates.IsTestClassWithTests.hasTestOrTestFactoryOrTestTemplateMethods(IsTestClassWithTests.java:50)
-	at org.junit.jupiter.engine.discovery.predicates.IsTestClassWithTests.test(IsTestClassWithTests.java:46)
-	at org.junit.jupiter.engine.discovery.ClassSelectorResolver.resolve(ClassSelectorResolver.java:67)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.lambda$resolve$2(EngineDiscoveryRequestResolution.java:135)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1693)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:147)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:588)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:574)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:683)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.resolve(EngineDiscoveryRequestResolution.java:189)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.resolve(EngineDiscoveryRequestResolution.java:126)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.resolveCompletely(EngineDiscoveryRequestResolution.java:92)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.run(EngineDiscoveryRequestResolution.java:83)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver.resolve(EngineDiscoveryRequestResolver.java:113)
-	at org.junit.jupiter.engine.discovery.DiscoverySelectorResolver.resolveSelectors(DiscoverySelectorResolver.java:46)
-	at org.junit.jupiter.engine.JupiterTestEngine.discover(JupiterTestEngine.java:69)
-	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discoverEngineRoot(EngineDiscoveryOrchestrator.java:152)
-	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discoverSafely(EngineDiscoveryOrchestrator.java:132)
-	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discover(EngineDiscoveryOrchestrator.java:107)
-	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discover(EngineDiscoveryOrchestrator.java:78)
-	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:99)
-	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:77)
-	at org.junit.platform.launcher.core.DelegatingLauncher.discover(DelegatingLauncher.java:42)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.discover(LazyLauncher.java:50)
-	at org.apache.maven.surefire.junitplatform.TestPlanScannerFilter.accept(TestPlanScannerFilter.java:52)
-	at org.apache.maven.surefire.api.util.DefaultScanResult.applyFilter(DefaultScanResult.java:87)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.scanClasspath(JUnitPlatformProvider.java:142)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.io.IOException: Error while instrumenting project/projecte/Model/Item with JaCoCo 0.8.11.202310140853/f33756c.
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrumentError(Instrumenter.java:161)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:111)
-	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:92)
-	... 53 more
-Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 67
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:200)
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:180)
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:166)
-	at org.jacoco.agent.rt.internal_4742761.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:77)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:109)
-	... 54 more
-java.lang.instrument.IllegalClassFormatException: Error while instrumenting project/projecte/Model/BillManagerTest with JaCoCo 0.8.11.202310140853/f33756c.
-	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:94)
-	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:257)
-	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
-	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:594)
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:962)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:144)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:776)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:691)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:620)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:578)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
-	at org.apache.maven.surefire.api.util.DefaultScanResult.loadClass(DefaultScanResult.java:115)
-	at org.apache.maven.surefire.api.util.DefaultScanResult.applyFilter(DefaultScanResult.java:85)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.scanClasspath(JUnitPlatformProvider.java:142)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.io.IOException: Error while instrumenting project/projecte/Model/BillManagerTest with JaCoCo 0.8.11.202310140853/f33756c.
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrumentError(Instrumenter.java:161)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:111)
-	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:92)
-	... 19 more
-Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 67
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:200)
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:180)
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:166)
-	at org.jacoco.agent.rt.internal_4742761.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:77)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:109)
-	... 20 more
-java.lang.instrument.IllegalClassFormatException: Error while instrumenting project/projecte/Model/Bill with JaCoCo 0.8.11.202310140853/f33756c.
-	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:94)
-	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:257)
-	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
-	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:594)
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:962)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:144)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:776)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:691)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:620)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:578)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
-	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3010)
-	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2329)
-	at org.junit.platform.commons.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:1568)
-	at org.junit.platform.commons.util.ReflectionUtils.findMethod(ReflectionUtils.java:1408)
-	at org.junit.platform.commons.util.ReflectionUtils.isMethodPresent(ReflectionUtils.java:1306)
-	at org.junit.jupiter.engine.discovery.predicates.IsTestClassWithTests.hasTestOrTestFactoryOrTestTemplateMethods(IsTestClassWithTests.java:50)
-	at org.junit.jupiter.engine.discovery.predicates.IsTestClassWithTests.test(IsTestClassWithTests.java:46)
-	at org.junit.jupiter.engine.discovery.ClassSelectorResolver.resolve(ClassSelectorResolver.java:67)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.lambda$resolve$2(EngineDiscoveryRequestResolution.java:135)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1693)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:147)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:588)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:574)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:683)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.resolve(EngineDiscoveryRequestResolution.java:189)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.resolve(EngineDiscoveryRequestResolution.java:126)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.resolveCompletely(EngineDiscoveryRequestResolution.java:92)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.run(EngineDiscoveryRequestResolution.java:83)
-	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver.resolve(EngineDiscoveryRequestResolver.java:113)
-	at org.junit.jupiter.engine.discovery.DiscoverySelectorResolver.resolveSelectors(DiscoverySelectorResolver.java:46)
-	at org.junit.jupiter.engine.JupiterTestEngine.discover(JupiterTestEngine.java:69)
-	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discoverEngineRoot(EngineDiscoveryOrchestrator.java:152)
-	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discoverSafely(EngineDiscoveryOrchestrator.java:132)
-	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discover(EngineDiscoveryOrchestrator.java:107)
-	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discover(EngineDiscoveryOrchestrator.java:78)
-	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:99)
-	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:77)
-	at org.junit.platform.launcher.core.DelegatingLauncher.discover(DelegatingLauncher.java:42)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.discover(LazyLauncher.java:50)
-	at org.apache.maven.surefire.junitplatform.TestPlanScannerFilter.accept(TestPlanScannerFilter.java:52)
-	at org.apache.maven.surefire.api.util.DefaultScanResult.applyFilter(DefaultScanResult.java:87)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.scanClasspath(JUnitPlatformProvider.java:142)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.io.IOException: Error while instrumenting project/projecte/Model/Bill with JaCoCo 0.8.11.202310140853/f33756c.
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrumentError(Instrumenter.java:161)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:111)
-	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:92)
-	... 53 more
-Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 67
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:200)
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:180)
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:166)
-	at org.jacoco.agent.rt.internal_4742761.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:77)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:109)
-	... 54 more
-java.lang.instrument.IllegalClassFormatException: Error while instrumenting project/projecte/Model/Inventory with JaCoCo 0.8.11.202310140853/f33756c.
-	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:94)
-	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:257)
-	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
-	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:594)
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:962)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:144)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:776)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:691)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:620)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:578)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
-	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
-	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:2917)
-	at java.base/java.lang.Class.getDeclaredFields(Class.java:2247)
-	at org.junit.platform.commons.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:1546)
-	at org.junit.platform.commons.util.ReflectionUtils.findAllFieldsInHierarchy(ReflectionUtils.java:1264)
-	at org.junit.platform.commons.util.ReflectionUtils.streamFields(ReflectionUtils.java:1256)
-	at org.junit.jupiter.engine.descriptor.ExtensionUtils.registerExtensionsFromFields(ExtensionUtils.java:96)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.prepare(ClassBasedTestDescriptor.java:155)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.prepare(ClassBasedTestDescriptor.java:85)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.io.IOException: Error while instrumenting project/projecte/Model/Inventory with JaCoCo 0.8.11.202310140853/f33756c.
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrumentError(Instrumenter.java:161)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:111)
-	at org.jacoco.agent.rt.internal_4742761.CoverageTransformer.transform(CoverageTransformer.java:92)
-	... 54 more
-Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 67
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:200)
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:180)
-	at org.jacoco.agent.rt.internal_4742761.asm.ClassReader.<init>(ClassReader.java:166)
-	at org.jacoco.agent.rt.internal_4742761.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:77)
-	at org.jacoco.agent.rt.internal_4742761.core.instr.Instrumenter.instrument(Instrumenter.java:109)
-	... 55 more
-]]></system-err>
-  </testcase>
-  <testcase name="testBVT_04_ShortestName_A" classname="project.projecte.Model.InventoryTest" time="0.004">
+  <testcase name="testFindItemByName_ECT_EmptyInventory" classname="project.projecte.Model.InventoryTest" time="0.021">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -364,7 +75,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testFindItemByName_ECT_ItemDoesNotExist" classname="project.projecte.Model.InventoryTest" time="0.001">
+  <testcase name="testBVT_04_ShortestName_A" classname="project.projecte.Model.InventoryTest" time="0.001">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -379,7 +90,22 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateStockLevel_DT_T1_ExistsValidStock" classname="project.projecte.Model.InventoryTest" time="0.003">
+  <testcase name="testFindItemByName_ECT_ItemDoesNotExist" classname="project.projecte.Model.InventoryTest" time="0.002">
+    <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
+DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
+DEBUG Inventory.loadInventory: Added item: Laptop
+DEBUG Inventory.loadInventory: Read line 2: Keyboard,Accessories,10.00,18.00,42
+DEBUG Inventory.loadInventory: Added item: Keyboard
+DEBUG Inventory.loadInventory: Read line 3: Mouse,Accessories,6.00,12.00,60
+DEBUG Inventory.loadInventory: Added item: Mouse
+DEBUG Inventory.loadInventory: Read line 4: Apple,Groceries,0.30,0.60,150
+DEBUG Inventory.loadInventory: Added item: Apple
+DEBUG Inventory.loadInventory: Read line 5: Water Bottle,Groceries,0.20,0.50,200
+DEBUG Inventory.loadInventory: Added item: Water Bottle
+DEBUG Inventory.loadInventory: Loaded 5 items total
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateStockLevel_DT_T1_ExistsValidStock" classname="project.projecte.Model.InventoryTest" time="0.001">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -439,7 +165,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testFindItemByName_ECT_ItemExists" classname="project.projecte.Model.InventoryTest" time="0.002">
+  <testcase name="testFindItemByName_ECT_ItemExists" classname="project.projecte.Model.InventoryTest" time="0.001">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -499,7 +225,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testBVT_03_MaxIntegerStock" classname="project.projecte.Model.InventoryTest" time="0.003">
+  <testcase name="testBVT_03_MaxIntegerStock" classname="project.projecte.Model.InventoryTest" time="0.001">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -544,7 +270,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testDisplayItems_WithItems_ShouldNotThrow" classname="project.projecte.Model.InventoryTest" time="0.004">
+  <testcase name="testDisplayItems_WithItems_ShouldNotThrow" classname="project.projecte.Model.InventoryTest" time="0.003">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -562,7 +288,7 @@ Apple (Fruits) - Purchase Price: $0.5, Selling Price: $1.0, Stock: 100
 Banana (Fruits) - Purchase Price: $0.3, Selling Price: $0.8, Stock: 50
 ]]></system-out>
   </testcase>
-  <testcase name="testBVT_05_EmptyString_ContainsItems" classname="project.projecte.Model.InventoryTest" time="0.002">
+  <testcase name="testBVT_05_EmptyString_ContainsItems" classname="project.projecte.Model.InventoryTest" time="0.001">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -577,7 +303,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateStockLevel_AfterRemove_ShouldReturnFalse" classname="project.projecte.Model.InventoryTest" time="0.002">
+  <testcase name="testUpdateStockLevel_AfterRemove_ShouldReturnFalse" classname="project.projecte.Model.InventoryTest" time="0.001">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -652,7 +378,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testRemoveItem_CaseInsensitive_ShouldRemove" classname="project.projecte.Model.InventoryTest" time="0.002">
+  <testcase name="testRemoveItem_CaseInsensitive_ShouldRemove" classname="project.projecte.Model.InventoryTest" time="0.001">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -682,7 +408,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testFindItemByName_SimilarNames_ShouldFindCorrect" classname="project.projecte.Model.InventoryTest" time="0.0">
+  <testcase name="testFindItemByName_SimilarNames_ShouldFindCorrect" classname="project.projecte.Model.InventoryTest" time="0.001">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -697,7 +423,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testFindItemByName_ECT_ItemExistsDifferentCase" classname="project.projecte.Model.InventoryTest" time="0.003">
+  <testcase name="testFindItemByName_ECT_ItemExistsDifferentCase" classname="project.projecte.Model.InventoryTest" time="0.004">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -727,7 +453,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateStockLevel_ZeroStock" classname="project.projecte.Model.InventoryTest" time="0.001">
+  <testcase name="testUpdateStockLevel_ZeroStock" classname="project.projecte.Model.InventoryTest" time="0.002">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -757,7 +483,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testAddItem_DuplicateItem_ShouldAdd" classname="project.projecte.Model.InventoryTest" time="0.002">
+  <testcase name="testAddItem_DuplicateItem_ShouldAdd" classname="project.projecte.Model.InventoryTest" time="0.0">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -772,7 +498,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testDisplayItems_EmptyInventory_ShouldNotThrow" classname="project.projecte.Model.InventoryTest" time="0.001">
+  <testcase name="testDisplayItems_EmptyInventory_ShouldNotThrow" classname="project.projecte.Model.InventoryTest" time="0.002">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -803,7 +529,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateStockLevel_DT_T2_ExistsInvalidStock" classname="project.projecte.Model.InventoryTest" time="0.002">
+  <testcase name="testUpdateStockLevel_DT_T2_ExistsInvalidStock" classname="project.projecte.Model.InventoryTest" time="0.001">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop
@@ -818,7 +544,7 @@ DEBUG Inventory.loadInventory: Added item: Water Bottle
 DEBUG Inventory.loadInventory: Loaded 5 items total
 ]]></system-out>
   </testcase>
-  <testcase name="testAddItem_Null_ShouldAddButMayCauseIssuesLater" classname="project.projecte.Model.InventoryTest" time="0.001">
+  <testcase name="testAddItem_Null_ShouldAddButMayCauseIssuesLater" classname="project.projecte.Model.InventoryTest" time="0.002">
     <system-out><![CDATA[DEBUG Inventory.loadInventory: Loading from data/inventory.txt
 DEBUG Inventory.loadInventory: Read line 1: Laptop,Electronics,650.00,850.00,12
 DEBUG Inventory.loadInventory: Added item: Laptop

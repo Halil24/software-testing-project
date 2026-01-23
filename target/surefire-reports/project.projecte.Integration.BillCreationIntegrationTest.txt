@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: project.projecte.Integration.BillCreationIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.092 s <<< FAILURE! -- in project.projecte.Integration.BillCreationIntegrationTest
-project.projecte.Integration.BillCreationIntegrationTest.testIntegration_CreateBillWithSingleItem -- Time elapsed: 0.027 s <<< FAILURE!
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.195 s <<< FAILURE! -- in project.projecte.Integration.BillCreationIntegrationTest
+project.projecte.Integration.BillCreationIntegrationTest.testIntegration_CreateBillWithSingleItem -- Time elapsed: 0.030 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Initial stock should be 100 ==> expected: <100> but was: <150>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
